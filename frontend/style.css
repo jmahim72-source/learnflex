@@ -102,10 +102,11 @@ button{
     gap: 100px;
 }
 
-.card p{
+.card div{
     font-size: 22px;
     font-weight: bold;
     color: #1f2937;
+    text-align: center;
 
 }
 
@@ -130,4 +131,37 @@ button{
     
     
     
+}
+.section-d{
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.section-d .popup{
+    display: flex;
+    background-color:skyblue;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height:200px;
+    border:2px solid black;
+    border-radius: 10px;
+
+}
+
+.popup .content{
+    padding: 10px;
+    margin: 10px;
+}
+
+.header2{
+    font-size: 48px;
+    font-weight: 800;
 }
